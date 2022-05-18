@@ -1,0 +1,56 @@
+name: behtarino
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  http: ^0.13.4
+  equatable: ^2.0.3
+  pinput: ^2.2.8
+  timer_builder: ^2.0.0
+  shamsi_date: ^1.0.1
+  sqflite: ^2.0.2+1
+  path_provider: ^2.0.10
+  intl: ^0.17.0
+  grpc: ^3.0.2
+  protobuf: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/pictures/logo.png
+
+
+  fonts:
+    - family: Iran-sans
+      fonts:
+        - asset: assets/fonts/IRANSansWeb.ttf
+    - family: Iran-sans-medium
+      fonts:
+        - asset: assets/fonts/IranSansWeb_Medium.ttf
